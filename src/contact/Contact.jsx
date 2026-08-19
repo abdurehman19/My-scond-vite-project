@@ -53,7 +53,7 @@ function Contact() {
 
             <div>
               <h5>Email</h5>
-              <p>mrmaneditor000820@gmail.com</p>
+              <p>abdulrehman@gmail.com</p>
             </div>
           </div>
 

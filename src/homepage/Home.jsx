@@ -1,6 +1,6 @@
 import React from 'react'
 import './Home.css'
-import MyImage from '../assets/My.jpeg'
+import MyImage from '../assets/My (2).jpeg'
 import { TypeAnimation } from 'react-type-animation';
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 
