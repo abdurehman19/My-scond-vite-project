@@ -85,7 +85,7 @@ function Contact() {
             <div className="social-links">
 
               <a
-                href="https://github.com/mrmaneditor000820-ui"
+                href="https://github.com/abdurehman19"
                 target="_blank"
                 rel="noopener noreferrer"
               >

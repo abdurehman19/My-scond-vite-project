@@ -33,7 +33,7 @@ function Footer() {
                     <div className="footer-social">
 
                         <a
-                            href="https://www.linkedin.com/in/abdul-rehman-9b8a1b1b3/"
+                            href="https://www.linkedin.com/in/abdul-rehman-763b11396/"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
@@ -41,7 +41,7 @@ function Footer() {
                         </a>
 
                         <a
-                            href="https://github.com/abdulrehman"
+                            href="https://github.com/abdurehman19"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
