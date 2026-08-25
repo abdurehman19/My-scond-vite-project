@@ -4,6 +4,7 @@ import Nexcent from '../assets/nexcent.png'
 import Rentcar from '../assets/rentcar.png'
 import Ring from '../assets/ring.png'
 import Maintain from '../assets/maintain.png'
+import Ecommerce from '../assets/ecommerce.png'
 import './Projects.css'
 
 function Projects() {
@@ -42,6 +43,31 @@ function Projects() {
           </a>
         </div>
 
+         <div className="project-card">
+          <a
+            href="https://full-stack-assigement.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={Ecommerce} alt="E-commerce Platform" />
+
+            <div className="badge-container">
+              <span className="project-badge">Full Stack</span>
+              <span className="project-badge">Frontend</span>
+              <span className="project-badge">Backend</span>
+              <span className="project-badge">MongoDB</span>
+            </div>
+
+            <h2>E-commerce Platform</h2>
+
+            <p>
+              A modern e-commerce platform built with React and MongoDB,
+              featuring a sleek design, intuitive user interface, and seamless
+              shopping experience.
+            </p>
+          </a>
+        </div>
+
         {/* Marketplace */}
         <div className="project-card">
           <a
@@ -61,9 +87,9 @@ function Projects() {
             <h2>Marketplace - E-commerce Platform</h2>
 
             <p>
-              A responsive e-commerce marketplace built with React and Firebase,
-              featuring secure user authentication, product listings, category
-              filtering, and a smooth shopping experience.
+              A responsive e-commerce marketplace built with React and MongoDB,
+              featuring a sleek design, intuitive user interface, and seamless
+              shopping experience.
             </p>
           </a>
         </div>

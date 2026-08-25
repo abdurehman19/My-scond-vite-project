@@ -63,7 +63,7 @@ function Certifications() {
         </div>
       </div>
 
-      <div className="certification-item">
+      {/* <div className="certification-item">
         <div className="cert-icon">
           <FaLanguage />
         </div>
@@ -78,7 +78,7 @@ function Certifications() {
             active listening, and spoken communication.
           </p>
         </div>
-      </div>
+      </div> */}
 
     </section>
   )
