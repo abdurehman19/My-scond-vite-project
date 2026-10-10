@@ -8,6 +8,8 @@ import Nexcent from '../assets/nexcent.png'
 import Rentcar from '../assets/rentcar.png'
 import Ring from '../assets/ring.png'
 import Maintain from '../assets/maintain.png'
+import Sikander from '../assets/sikander.png'
+import Daniyal from '../assets/daniyal.png'
 import Ecommerce from '../assets/ecommerce.png'
 import './Projects.css'
 
@@ -26,6 +28,24 @@ const projects = [
   },
   {
     id: 2,
+    title: 'Sikander Ali - Woodworker',
+    img: Sikander, // TODO: apni website ka screenshot lagao
+    link: 'https://sikanderali1985.vercel.app/',
+    category: 'React',
+    tags: ['React', 'Firebase', 'Responsive'],
+    desc: 'A business website for a custom woodworker offering wardrobes, full kitchens, and made-to-order furniture. Clients can request a home visit, get an honest quote, and approve the work before it starts.',
+  },
+  {
+    id: 3,
+    title: 'Daniyal - AI Content Creator',
+    img: Daniyal, // TODO: apni website ka screenshot lagao
+    link: 'https://daniyal-portfolio-ruby.vercel.app/',
+    category: 'React',
+    tags: ['React', 'Firebase', 'AI', 'Portfolio'],
+    desc: 'A modern portfolio website for an AI content creator, showcasing his work, services, and social presence with a clean, responsive design.',
+  },
+  {
+    id: 4,
     title: 'E-commerce Platform',
     img: Ecommerce,
     link: 'https://full-stack-assigement.vercel.app/',
@@ -34,7 +54,7 @@ const projects = [
     desc: 'A modern e-commerce platform built with React and MongoDB, featuring a sleek design, intuitive user interface, and seamless shopping experience.',
   },
   {
-    id: 3,
+    id: 5,
     title: 'Marketplace Platform',
     img: Market,
     link: 'https://mymarketplacewebsite.netlify.app/',
@@ -43,7 +63,7 @@ const projects = [
     desc: 'A responsive e-commerce marketplace built with React and Firebase, featuring user authentication, a sleek design, and a seamless shopping experience.',
   },
   {
-    id: 4,
+    id: 6,
     title: 'Nexcent - Landing Page',
     img: Nexcent,
     link: 'https://clonefigma.netlify.app/',
@@ -52,7 +72,7 @@ const projects = [
     desc: 'A modern and fully responsive business landing page developed using HTML, CSS, and JavaScript with a clean interface, engaging layout, and optimized user experience.',
   },
   {
-    id: 5,
+    id: 7,
     title: 'RentCar - Car Rental',
     img: Rentcar,
     link: 'https://dainty-pony-d52426.netlify.app/',
@@ -61,7 +81,7 @@ const projects = [
     desc: 'A responsive car rental website showcasing modern vehicle listings, booking sections, and a user-friendly interface designed for a seamless browsing experience.',
   },
   {
-    id: 6,
+    id: 8,
     title: 'Ring - Jewelry Store',
     img: Ring,
     link: 'https://rehman-e-commerce-web.netlify.app/',
