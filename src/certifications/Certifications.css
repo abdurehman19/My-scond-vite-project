@@ -338,6 +338,31 @@
   color: #1e40af;
 }
 
+.cert-view-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 20px;
+  padding: 10px 16px;
+  color: #ffffff;
+  background: linear-gradient(90deg, #2563eb, #7c3aed);
+  border-radius: 50px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.cert-view-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(37, 99, 235, 0.25);
+}
+
+.cert-view-link:focus-visible {
+  outline: 3px solid #93c5fd;
+  outline-offset: 3px;
+}
+
 /* ================= STATS ================= */
 
 .cert-stats {

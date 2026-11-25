@@ -1,12 +1,13 @@
-import React, { useRef } from 'react'
+import { useRef } from 'react'
 import {
   motion,
   MotionConfig,
   useScroll,
   useSpring,
 } from 'framer-motion'
-import { FaHtml5, FaCss3Alt, FaJs } from 'react-icons/fa'
+import { FaAward, FaHtml5, FaCss3Alt, FaJs, FaFilePdf } from 'react-icons/fa'
 import { HiBadgeCheck } from 'react-icons/hi'
+import certificatePdf from '../assets/CERT-490445.pdf'
 import './Certifications.css'
 
 const container = {
@@ -49,11 +50,23 @@ const certs = [
     desc: 'Completed a professional certification in Programming Foundations with JavaScript, covering DOM manipulation, event handling, asynchronous programming, and dynamic web applications.',
     tags: ['DOM', 'Events', 'Async'],
   },
+  {
+    id: 4,
+    icon: <FaAward />,
+    title: 'Web & Mobile App Development',
+    issuer: 'Saylani Welfare International Trust',
+    desc: 'Certificate of completion issued through Saylani Mass IT Training (SMIT).',
+    tags: ['SMIT', 'WMA', '2025'],
+    certificateUrl: certificatePdf,
+  },
 ]
 
 const stats = [
   { value: certs.length + '', label: 'Certifications' },
-  { value: 'Cisco', label: 'Networking Academy' },
+  {
+    value: new Set(certs.map((cert) => cert.issuer)).size + '',
+    label: 'Issuing Organizations',
+  },
   { value: 'Web Dev', label: 'Focus Area' },
 ]
 
@@ -171,6 +184,18 @@ function Certifications() {
                       </span>
                     ))}
                   </div>
+
+                  {c.certificateUrl && (
+                    <a
+                      className="cert-view-link"
+                      href={c.certificateUrl}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <FaFilePdf />
+                      View Certificate
+                    </a>
+                  )}
                 </motion.div>
               </div>
             )
